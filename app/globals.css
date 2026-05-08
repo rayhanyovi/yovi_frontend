@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Date input arrow styling */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Checkbox accent color */
+input[type="checkbox"] {
+  accent-color: #0f766e;
+}
