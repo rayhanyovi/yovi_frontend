@@ -2,6 +2,14 @@
 
 Next.js frontend untuk aplikasi booking ruang meeting iMeeting.
 
+## Related Repository
+
+Frontend ini membutuhkan backend iMeeting dari repo:
+
+- `yovi_backend`: https://github.com/rayhanyovi/yovi_backend
+
+Jalankan backend terlebih dahulu sesuai README di repo `yovi_backend`, termasuk `docker compose up -d`, migration, dan seed data. Setelah backend hidup di `http://localhost:4000`, frontend ini bisa dijalankan dan akan memanggil API lewat `NEXT_PUBLIC_API_URL`.
+
 ## Prerequisites
 
 - Node.js 20+
