@@ -35,9 +35,10 @@ export function Sidebar() {
             href={href}
             className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
               active
-                ? 'bg-teal-700 text-white'
+                ? 'text-white'
                 : 'text-gray-500 hover:bg-gray-100 hover:text-gray-700'
             }`}
+            style={active ? { backgroundColor: '#4A8394' } : undefined}
           >
             {icon}
           </Link>
